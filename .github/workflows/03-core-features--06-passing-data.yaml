@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-24.04
 
     outputs:
-      foo: ${{ steps.generate-foo.outputs.foo1 }}
+      foo: ${{ steps.generate-foo.outputs.foo }}
     steps:
       - name: Generate and export foo
         id: generate-foo
